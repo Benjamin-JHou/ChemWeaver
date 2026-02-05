@@ -66,7 +66,7 @@ from chemweaver.utils import compute_reproducibility_hash
 hash_value = compute_reproducibility_hash(
     input_file="compounds.smi",
     parameters={"confidence": 0.7, "uncertainty": 0.5},
-    timestamp="2024-01-15T10:30:00Z"
+    timestamp="2026-02-05T10:30:00Z"
 )
 print(f"Reproducibility Hash: {hash_value}")
 ```
@@ -390,43 +390,6 @@ ChemWeaver is released under the MIT License. See [LICENSE](LICENSE) for details
 - Computational chemistry community for feedback on design
 - Open source projects: RDKit, NumPy, scikit-learn, PyTorch
 - Standards organizations: W3C PROV-O, DataCite
-
----
-
-## 📬 Contact
-
-- **Issues**: [GitHub Issues](https://github.com/Benjamin-JHou/ChemWeaver/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Benjamin-JHou/ChemWeaver/discussions)
-- **Email**: [To be added]
-- **Website**: [To be added]
-
----
-
-## 🗺️ Roadmap
-
-### Phase 1: Foundation (v1.0) ✅ Current
-- Core screening pipeline
-- AI surrogate with uncertainty
-- Container support
-- Basic documentation
-
-### Phase 2: Expansion (v1.1) Q2 2024
-- RDKit integration
-- Additional AI models
-- Extended benchmarks
-- Video tutorials
-
-### Phase 3: Production (v1.2) Q3 2024
-- Cloud deployment guides
-- HPC integration
-- Performance optimizations
-- Extended format support
-
-### Phase 4: Community (v2.0) Q4 2024
-- Public benchmark leaderboards
-- Community workshops
-- Training courses
-- Certification program
 
 ---
 

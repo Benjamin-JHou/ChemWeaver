@@ -312,7 +312,7 @@ c1ccc(cc1)C(=O)O,compound_002,ChEMBL,122.12
 ```json
 {
     "pipeline_id": "550e8400-e29b-41d4-a716-446655440000",
-    "execution_timestamp": "2024-01-15T10:30:00Z",
+    "execution_timestamp": "2026-02-05T10:30:00Z",
     "chemweaver_version": "1.0.0",
     "parameters": {
         "confidence_threshold": 0.7,
@@ -372,12 +372,12 @@ c1ccc(cc1)C(=O)O,compound_002,ChEMBL,122.12
 ```json
 [
     {
-        "timestamp": "2024-01-15T10:30:00Z",
+        "timestamp": "2026-02-05T10:30:00Z",
         "level": "INFO",
         "message": "Starting ChemWeaver Screening Pipeline v1.0.0"
     },
     {
-        "timestamp": "2024-01-15T10:30:05Z",
+        "timestamp": "2026-02-05T10:30:05Z",
         "level": "INFO",
         "message": "Stage 1: Standardized 10000 compounds"
     }
@@ -591,5 +591,5 @@ See [docs/citation_usage.md](docs/citation_usage.md) for detailed citation guide
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: 2024-02-05  
+**Last Updated**: 2026-02-05  
 **Maintainer**: Benjamin J. Hou and ChemWeaver Development Team

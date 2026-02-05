@@ -357,7 +357,7 @@ We track:
 
 | Version | Date | DOI | Changes |
 |---------|------|-----|---------|
-| 1.0.0 | 2024-02-05 | 10.5281/zenodo.xxxxx | Initial release |
+| 1.0.0 | 2026-02-05 | 10.5281/zenodo.xxxxx | Initial release |
 
 ---
 
@@ -381,6 +381,6 @@ Your citations help us:
 
 ---
 
-**Last Updated**: 2024-02-05  
+**Last Updated**: 2026-02-05  
 **Citation Version**: 1.0.0  
 **Valid Until**: Next major release

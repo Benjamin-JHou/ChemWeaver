@@ -156,15 +156,15 @@ manifest = logger.generate_manifest()
 ```json
 {
   "campaign_id": "uuid",
-  "timestamp": "2024-01-15T10:30:00Z",
+  "timestamp": "2026-02-05T10:30:00Z",
   "operations": [
     {
-      "timestamp": "2024-01-15T10:30:00Z",
+      "timestamp": "2026-02-05T10:30:00Z",
       "type": "input",
       "details": {...}
     },
     {
-      "timestamp": "2024-01-15T10:30:02Z",
+      "timestamp": "2026-02-05T10:30:02Z",
       "type": "stage_1",
       "details": {...}
     }
@@ -192,7 +192,7 @@ hash_value = compute_reproducibility_hash(
         "max_uncertainty": 0.5,
         "random_seed": 42
     },
-    timestamp="2024-01-15T10:30:00Z",
+    timestamp="2026-02-05T10:30:00Z",
     container_digest="sha256:container123..."
 )
 
@@ -436,5 +436,5 @@ For reproducibility questions or issues:
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: 2024-02-05  
+**Last Updated**: 2026-02-05  
 **Maintainer**: ChemWeaver Development Team

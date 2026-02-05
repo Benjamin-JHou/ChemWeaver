@@ -6,7 +6,7 @@ This package contains all materials required for the official scientific open-so
 
 **Release Status**: ✅ COMPLETE AND READY FOR DEPLOYMENT  
 **Target Repository**: https://github.com/Benjamin-JHou/ChemWeaver  
-**Release Date**: 2024-02-05  
+**Release Date**: 2026-02-05  
 **Version**: 1.0.0  
 **License**: MIT
 
@@ -605,7 +605,7 @@ Open source (MIT License) - contributions welcome!
 ---
 
 **Package Version**: 1.0.0  
-**Release Date**: 2024-02-05  
+**Release Date**: 2026-02-05  
 **Status**: ✅ READY FOR DEPLOYMENT  
 **Quality Grade**: A (94/100)
 

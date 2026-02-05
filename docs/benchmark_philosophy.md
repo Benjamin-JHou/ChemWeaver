@@ -497,5 +497,5 @@ For benchmark questions or contributions:
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: 2024-02-05  
+**Last Updated**: 2026-02-05  
 **Maintainer**: ChemWeaver Development Team
