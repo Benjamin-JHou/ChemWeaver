@@ -6,13 +6,11 @@ abstract: "A reproducible, AI-driven virtual screening platform for prospective 
 authors:
   - family-names: "Hou"
     given-names: "Benjamin J."
-    orcid: "https://orcid.org/0000-0000-0000-0000"
     affiliation: "[Institution to be added]"
   - name: "ChemWeaver Development Team"
     affiliation: "Open Source Community"
 repository-code: "https://github.com/Benjamin-JHou/ChemWeaver"
 url: "https://github.com/Benjamin-JHou/ChemWeaver"
-repository-artifact: "https://doi.org/10.5281/zenodo.xxxxx"
 license: MIT
 version: 1.0.0
 date-released: 2024-02-05
@@ -36,11 +34,6 @@ preferred-citation:
   title: "ChemWeaver: A Reproducible AI-Augmented Infrastructure for Prospective Virtual Screening"
   year: 2024
   journal: "Nature Methods"
-  volume: "[To be determined]"
-  issue: "[To be determined]"
-  pages: "[To be determined]"
-  doi: "10.xxxx/nature.xxxxx"
-  url: "https://doi.org/10.xxxx/nature.xxxxx"
 references:
   - type: software
     authors:
