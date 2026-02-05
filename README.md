@@ -1,7 +1,7 @@
 # ChemWeaver
 
 <div align="center">
-  <img src="assets/chemweaver-logo.png" alt="ChemWeaver Logo" width="200" height="200">
+  <img src="[assets/chemweaver-logo.png](https://github.com/Benjamin-JHou/ChemWeaver/blob/main/docs/Logo.png)" alt="ChemWeaver Logo" width="200" height="200">
 </div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
