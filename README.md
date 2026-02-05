@@ -6,8 +6,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
+[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18497305.svg)](https://doi.org/10.5281/zenodo.18497305)
 
 > **A reproducible, AI-driven virtual screening infrastructure for prospective drug discovery with uncertainty-aware decision support.**
 
@@ -327,39 +327,6 @@ The repository includes a minimal example dataset (`data/example_compounds.smi`)
 
 **Runtime**: ~5 seconds on standard laptop  
 **Output**: 6-8 hits selected with uncertainty estimates
-
----
-
-## 📖 Citation
-
-If you use ChemWeaver in your research, please cite:
-
-### Software Citation
-
-```bibtex
-@software{chemweaver_2024,
-  title = {ChemWeaver: Reproducible AI-Driven Virtual Screening},
-  author = {Hou, Benjamin J. and {ChemWeaver Development Team}},
-  year = {2024},
-  url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  version = {1.0.0},
-  doi = {10.5281/zenodo.xxxxx}
-}
-```
-
-### Associated Publication
-
-```bibtex
-@article{chemweaver_2024_nature,
-  title={ChemWeaver: A Reproducible AI-Augmented Infrastructure for 
-         Prospective Virtual Screening},
-  author={Hou, Benjamin J. and [Co-authors]},
-  journal={Nature Methods},
-  year={2024},
-  note={In preparation},
-  doi={10.xxxx/nature.xxxxx}
-}
-```
 
 ---
 
