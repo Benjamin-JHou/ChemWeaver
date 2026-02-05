@@ -1,10 +1,10 @@
 """
-VSSS Utilities
-==============
+ChemWeaver Utilities
+====================
 
-Utility functions for the VSSS minimal screening pipeline.
+Utility functions for the ChemWeaver minimal screening pipeline.
 
-Author: VSSS Development Team
+Author: ChemWeaver Development Team
 Version: 1.0.0
 License: MIT
 """

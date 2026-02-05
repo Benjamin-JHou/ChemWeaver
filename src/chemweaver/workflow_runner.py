@@ -1,9 +1,9 @@
 """
-VSSS Workflow Runner
-====================
+ChemWeaver Workflow Runner
+==========================
 
 Command-line interface and workflow orchestration for the
-minimal VSSS screening pipeline.
+minimal ChemWeaver screening pipeline.
 
 Provides:
 - CLI for running screening workflows
@@ -15,7 +15,7 @@ Usage:
     python workflow_runner.py --input compounds.smi --output results.json
     python workflow_runner.py --example
 
-Author: VSSS Development Team
+Author: ChemWeaver Development Team
 Version: 1.0.0
 License: MIT
 """
@@ -29,7 +29,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from pipeline import Compound, MinimalScreeningPipeline
+from .core.pipeline import Compound, MinimalScreeningPipeline
 
 
 class WorkflowRunner:

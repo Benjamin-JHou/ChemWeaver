@@ -1,8 +1,8 @@
 """
-VSSS Minimal Package
-====================
+ChemWeaver Minimal Package
+===========================
 
-This package provides the core functionality for the VSSS minimal
+This package provides the core functionality for the ChemWeaver minimal
 virtual screening pipeline.
 
 It includes:
@@ -14,7 +14,7 @@ It includes:
 """
 
 __version__ = "1.0.0"
-__author__ = "VSSS Development Team"
+__author__ = "ChemWeaver Development Team"
 
 from .core.pipeline import Compound, MinimalScreeningPipeline
 from .core.inference import MinimalSurrogateModel, Prediction

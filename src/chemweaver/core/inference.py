@@ -1,6 +1,6 @@
 """
-VSSS Minimal AI Inference Module
-================================
+ChemWeaver Minimal AI Inference Module
+=======================================
 
 Lightweight AI surrogate model for docking score prediction
 with uncertainty quantification.
@@ -11,7 +11,7 @@ This module provides:
 - Confidence calibration
 - Domain of applicability detection
 
-Author: VSSS Development Team
+Author: ChemWeaver Development Team
 Version: 1.0.0
 License: MIT
 """

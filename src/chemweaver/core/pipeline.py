@@ -1,9 +1,9 @@
 """
-VSSS Minimal Screening Pipeline
-===============================
+ChemWeaver Minimal Screening Pipeline
+=====================================
 
 A minimal, reproducible virtual screening pipeline demonstrating
-the core VSSS-CAS-AISUAM functionality.
+the core ChemWeaver functionality.
 
 This module provides:
 - Compound standardization
@@ -12,7 +12,7 @@ This module provides:
 - Uncertainty quantification
 - Hit selection
 
-Author: VSSS Development Team
+Author: ChemWeaver Development Team
 Version: 1.0.0
 License: MIT
 """
