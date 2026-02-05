@@ -585,28 +585,6 @@ Open source (MIT License) - contributions welcome!
 **Repository**: https://github.com/Benjamin-JHou/ChemWeaver  
 **Issues**: https://github.com/Benjamin-JHou/ChemWeaver/issues  
 **License**: MIT  
-**Maintainer**: Benjamin J. Hou
+**Maintainer**: Benjamin JHou
 
 ---
-
-## Citation
-
-```bibtex
-@software{chemweaver_2024,
-  title = {ChemWeaver: Reproducible AI-Driven Virtual Screening Infrastructure},
-  author = {Hou, Benjamin J. and {ChemWeaver Development Team}},
-  year = {2024},
-  url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  version = {1.0.0},
-  doi = {10.5281/zenodo.xxxxx}
-}
-```
-
----
-
-**Package Version**: 1.0.0  
-**Release Date**: 2026-02-05  
-**Status**: ✅ READY FOR DEPLOYMENT  
-**Quality Grade**: A (94/100)
-
-**END OF RELEASE PACKAGE**
