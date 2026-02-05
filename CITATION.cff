@@ -1,9 +1,0 @@
-message: "If you use this software, please cite it as below."
-title: "ChemWeaver"
-version: 1.0.0
-date-released: 2026-02-05
-license: MIT
-authors:
-  - family-names: Jhou
-    given-names: Benjamin
-    orcid: "https://orcid.org/0000-0001-5931-1477"
