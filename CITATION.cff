@@ -4,8 +4,8 @@ type: software
 title: "ChemWeaver: Reproducible AI-Driven Virtual Screening Infrastructure"
 abstract: "A reproducible, AI-driven virtual screening platform for prospective drug discovery with uncertainty-aware decision support. ChemWeaver addresses the reproducibility crisis in computational drug discovery through container-native execution, calibrated uncertainty quantification, and complete wet-lab bridge readiness."
 authors:
-  - family-names: "Hou"
-    given-names: "Benjamin J."
+  - family-names: "Jhou"
+    given-names: "Benjamin"
     affiliation: "[Institution to be added]"
   - name: "ChemWeaver Development Team"
     affiliation: "Open Source Community"
@@ -25,15 +25,6 @@ keywords:
   - prospective-validation
   - computational-biology
   - structure-based-drug-design
-preferred-citation:
-  type: article
-  authors:
-    - family-names: "Hou"
-      given-names: "Benjamin J."
-    - name: "ChemWeaver Development Team"
-  title: "ChemWeaver: A Reproducible AI-Augmented Infrastructure for Prospective Virtual Screening"
-  year: 2024
-  journal: "Nature Methods"
 references:
   - type: software
     authors:
