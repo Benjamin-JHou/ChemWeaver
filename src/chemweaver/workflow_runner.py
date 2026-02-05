@@ -34,7 +34,7 @@ from .core.pipeline import Compound, MinimalScreeningPipeline
 
 class WorkflowRunner:
     """
-    Workflow runner for VSSS screening pipelines.
+    Workflow runner for ChemWeaver screening pipelines.
     
     Manages:
     - Input/output handling
@@ -274,7 +274,7 @@ CC(C)CC(C)C isooctane_001
 def main():
     """Main entry point for CLI."""
     parser = argparse.ArgumentParser(
-        description="VSSS Virtual Screening Workflow Runner",
+        description="ChemWeaver Virtual Screening Workflow Runner",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -333,7 +333,7 @@ Examples:
     parser.add_argument(
         '--version',
         action='version',
-        version='VSSS Workflow Runner 1.0.0'
+        version='ChemWeaver Workflow Runner 1.0.0'
     )
     
     args = parser.parse_args()
@@ -341,7 +341,7 @@ Examples:
     # Handle example mode
     if args.example:
         print("="*60)
-        print("VSSS Workflow Runner - Example Mode")
+        print("ChemWeaver Workflow Runner - Example Mode")
         print("="*60)
         input_file = create_example_data()
     elif args.input:
