@@ -1,3 +1,4 @@
+# Core dependencies
 numpy>=1.21.0
 pandas>=1.3.0
 scikit-learn>=1.0.0
@@ -5,3 +6,34 @@ rdkit>=2022.03.1
 matplotlib>=3.5.0
 seaborn>=0.11.0
 tqdm>=4.62.0
+
+# Data storage and processing
+h5py>=3.6.0
+pyarrow>=6.0.0
+tables>=3.7.0
+jsonschema>=4.0.0
+
+# AI/ML dependencies
+torch>=1.12.0
+torch-geometric>=2.0.0
+transformers>=4.15.0
+scipy>=1.7.0
+
+# Workflow and deployment
+nextflow>=22.04.0
+snakemake>=7.0.0
+cwltool>=3.1.0
+docker>=5.0.0
+kubernetes>=18.0.0
+
+# Benchmarking and evaluation
+plotly>=5.0.0
+dash>=2.0.0
+jupyter>=1.0.0
+pytest>=6.0.0
+
+# Optional dependencies for specific backends
+# SLURM: pyslurm>=21.0.0
+# AWS: boto3>=1.20.0
+# Azure: azure-storage-blob>=12.8.0
+# GCP: google-cloud-storage>=2.1.0

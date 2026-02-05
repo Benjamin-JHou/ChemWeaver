@@ -24,6 +24,7 @@ classifiers = [
 ]
 requires-python = ">=3.8"
 dependencies = [
+    # Core dependencies
     "numpy>=1.21.0",
     "pandas>=1.3.0",
     "scikit-learn>=1.0.0",
@@ -31,6 +32,23 @@ dependencies = [
     "matplotlib>=3.5.0",
     "seaborn>=0.11.0",
     "tqdm>=4.62.0",
+    
+    # Data storage and processing
+    "h5py>=3.6.0",
+    "pyarrow>=6.0.0",
+    "jsonschema>=4.0.0",
+    
+    # AI/ML dependencies
+    "torch>=1.12.0",
+    "torch-geometric>=2.0.0",
+    "transformers>=4.15.0",
+    "scipy>=1.7.0",
+    
+    # Workflow and deployment
+    "docker>=5.0.0",
+    
+    # Benchmarking
+    "plotly>=5.0.0",
 ]
 
 [project.optional-dependencies]
