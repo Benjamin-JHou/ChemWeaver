@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
+[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18497305.svg)](https://doi.org/10.5281/zenodo.18497305)
 
 > **A reproducible, AI-driven virtual screening infrastructure for prospective drug discovery with uncertainty-aware decision support.**
 
