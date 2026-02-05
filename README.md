@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
 
 > **A reproducible, AI-driven virtual screening infrastructure for prospective drug discovery with uncertainty-aware decision support.**
 
@@ -310,11 +310,9 @@ Output Layer
 ## 📚 Documentation
 
 - **Quick Start**: This README
-- **Capabilities**: [skill.md](skill.md)
-- **Architecture**: [docs/architecture.md](docs/architecture.md)
-- **Reproducibility**: [docs/reproducibility.md](docs/reproducibility.md)
-- **Benchmarking**: [docs/benchmark_philosophy.md](docs/benchmark_philosophy.md)
-- **Citation Guide**: [docs/citation_usage.md](docs/citation_usage.md)
+- **Architecture**: Integrated AI-Workflow-Data framework
+- **Reproducibility**: Container-native with cryptographic verification
+- **Benchmarking**: Independent validation framework
 - **API Reference**: See docstrings in source code
 
 ---
