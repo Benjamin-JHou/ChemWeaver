@@ -1,22 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Hou"
-  given-names: "Benjamin J."
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "ChemWeaver: AI-Powered Virtual Screening Pipeline for Drug Discovery"
-version: 1.0.0
-date-released: 2026-02-06
-url: "https://github.com/Benjamin-JHou/ChemWeaver"
+title: "ChemWeaver"
+version: 1.0.2
+date-released: 2026-02-05
 license: MIT
-abstract: "ChemWeaver is a minimal, reproducible virtual screening pipeline that integrates AI surrogate models for efficient compound screening and hit identification in drug discovery."
-keywords:
-- virtual screening
-- drug discovery
-- artificial intelligence
-- machine learning
-- cheminformatics
-- docking
-repository-code: "https://github.com/Benjamin-JHou/ChemWeaver"
-contact:
-- email: "benjamin.hou@example.com"
+authors:
+  - family-names: Jhou
+    given-names: Benjamin
+    orcid: "https://orcid.org/0000-0001-5931-1477"
