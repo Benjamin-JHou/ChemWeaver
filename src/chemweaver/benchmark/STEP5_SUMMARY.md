@@ -298,18 +298,18 @@ Global Score =
 
 ## Integration with Previous Steps
 
-**Step 1 (VSSS)**: VS-Bench uses VSSS schema for:
+**Step 1 (ChemWeaver-Data)**: VS-Bench uses ChemWeaver schema for:
 - Compound identity representation
 - Protein target specification
 - Metadata standards
 - Storage format (Parquet/HDF5)
 
-**Step 2 (CAS-VS)**: Benchmark tasks align with:
+**Step 2 (ChemWeaver-Workflow)**: Benchmark tasks align with:
 - CAS adaptive stages
 - Cost-aware evaluation
 - Checkpoint recovery for long evaluations
 
-**Step 3 (AISUAM)**: Metrics support:
+**Step 3 (ChemWeaver-AI)**: Metrics support:
 - AI surrogate evaluation
 - Uncertainty quantification assessment
 - Calibration metrics
@@ -376,7 +376,7 @@ VS-Bench represents the most comprehensive benchmark ecosystem for AI-assisted v
 ✅ **Fairness**: Standardized evaluation, automated validation  
 ✅ **Evolution**: Hidden tests, annual refresh, community governance  
 ✅ **Openness**: GitHub-native, MIT license, community-driven  
-✅ **Integration**: Works with VSSS, CAS-VS, AISUAM, RCVSI  
+✅ **Integration**: Works with ChemWeaver components  
 
 **Ready for publication in Nature Methods and deployment at vs-bench.org**
 

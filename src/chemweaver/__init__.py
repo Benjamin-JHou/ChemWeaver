@@ -37,13 +37,15 @@ except Exception as e:
 
 try:
     import chemweaver.workflow
-    _WORKFLOW_AVAILABLE = True
+    from .workflow import _full_workflow_available
+    _WORKFLOW_AVAILABLE = _full_workflow_available
 except Exception as e:
     _WORKFLOW_AVAILABLE = False
 
 try:
     import chemweaver.ai
-    _AI_AVAILABLE = True
+    from .ai import _full_ai_available
+    _AI_AVAILABLE = _full_ai_available
 except Exception as e:
     _AI_AVAILABLE = False
 

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "chemweaver"
 version = "1.0.0"
-description = "AI-powered virtual screening pipeline for drug discovery"
+description = "Reproducible, uncertainty-aware virtual screening infrastructure for prospective drug discovery"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -21,6 +21,9 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Operating System :: OS Independent",
 ]
 requires-python = ">=3.8"
 dependencies = [

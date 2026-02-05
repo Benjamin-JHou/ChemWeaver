@@ -440,4 +440,4 @@ VS-Bench is released under the MIT License. Datasets are released under CC-BY-4.
 
 **Made with ❤️ by the VS-Bench Community**
 
-Part of the Virtual Screening Standard Schema (VSSS) ecosystem.
+Part of the ChemWeaver ecosystem.

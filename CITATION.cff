@@ -1,10 +1,22 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "ChemWeaver"
-version: 1.0.2
-date-released: 2026-02-05
+title: "ChemWeaver: A Reproducible AI-Augmented Infrastructure for Prospective Virtual Screening and Translational Drug Discovery"
+version: 1.0.0
+date-released: 2026-02-06
 license: MIT
 authors:
-  - family-names: Jhou
-    given-names: Benjamin
+  - family-names: "Jhou"
+    given-names: "Benjamin"
     orcid: "https://orcid.org/0000-0001-5931-1477"
+abstract: "ChemWeaver is a comprehensive virtual screening platform that integrates universal data standards, compute-adaptive workflows, and physics-informed AI surrogates with uncertainty quantification for reproducible prospective drug discovery."
+keywords:
+- virtual screening
+- artificial intelligence
+- reproducibility
+- uncertainty quantification
+- prospective validation
+- drug discovery
+- machine learning
+- computational chemistry
+repository-code: "https://github.com/Benjamin-JHou/ChemWeaver"
+url: "https://github.com/Benjamin-JHou/ChemWeaver"

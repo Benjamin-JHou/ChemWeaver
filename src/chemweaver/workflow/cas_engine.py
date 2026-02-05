@@ -1,7 +1,7 @@
 """
-CAS-VS Compute-Adaptive Screening Strategy Engine
+ChemWeaver Compute-Adaptive Screening Strategy Engine
 
-The CAS Engine dynamically optimizes screening strategy based on available
+The ChemWeaver Engine dynamically optimizes screening strategy based on available
 compute resources, target characteristics, and library properties.
 
 Key Features:
@@ -10,7 +10,7 @@ Key Features:
 - Cost-performance frontier modeling
 - Real-time strategy adjustment
 
-Author: CAS-VS Development Team
+Author: ChemWeaver Development Team
 Version: 1.0.0
 """
 
@@ -290,7 +290,7 @@ class ComputeAdaptiveScreeningEngine:
                  strategy: str = "balanced",
                  optimization_target: str = "enrichment"):
         """
-        Initialize CAS Engine.
+        Initialize ChemWeaver Engine.
         
         Args:
             strategy: Overall strategy (fast, balanced, thorough, cost_optimized)

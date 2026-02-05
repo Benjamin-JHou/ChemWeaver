@@ -1,15 +1,44 @@
-# Installation
+# ChemWeaver Installation
 
-## Option 1: Clone and install locally
+## 🚀 Quick Start (Recommended)
+
+### One-Click Deployment
+```bash
+git clone https://github.com/Benjamin-JHou/ChemWeaver.git
+cd ChemWeaver
+./deploy_chemweaver.sh
+```
+
+### Manual Installation
 ```bash
 git clone https://github.com/Benjamin-JHou/ChemWeaver.git
 cd ChemWeaver
 pip install -e .
 ```
 
-## Option 2: Install from PyPI (when published)
+## 📦 Full Installation (All Components)
+
+For complete functionality with AI models and workflow engines:
 ```bash
-pip install chemweaver
+git clone https://github.com/Benjamin-JHou/ChemWeaver.git
+cd ChemWeaver
+./install_dependencies.sh
+pip install -e .
+```
+
+## 📋 Component Availability
+
+ChemWeaver uses smart dependency loading:
+
+- ✅ **Core**: Always available (basic screening + AI)
+- ✅ **Data**: Standardized data formats & storage  
+- ✅ **Benchmark**: Evaluation framework
+- ⚡ **Workflow**: Compute-adaptive engines (requires h5py, pyarrow)
+- 🤖 **AI**: Full multi-modal models (requires torch, transformers)
+
+Check your current status:
+```bash
+python3 -c "import chemweaver; chemweaver.print_status()"
 ```
 
 # Quick Start
