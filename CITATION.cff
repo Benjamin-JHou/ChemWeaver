@@ -1,52 +1,9 @@
-cff-version: 1.2.0
-message: "If you use ChemWeaver in your research, please cite it using these metadata."
-type: software
-title: "ChemWeaver: Reproducible AI-Driven Virtual Screening Infrastructure"
-abstract: "A reproducible, AI-driven virtual screening platform for prospective drug discovery with uncertainty-aware decision support. ChemWeaver addresses the reproducibility crisis in computational drug discovery through container-native execution, calibrated uncertainty quantification, and complete wet-lab bridge readiness."
-authors:
-  - family-names: "Hou"
-    given-names: "Benjamin J."
-    affiliation: "[Institution to be added]"
-  - name: "ChemWeaver Development Team"
-    affiliation: "Open Source Community"
-repository-code: "https://github.com/Benjamin-JHou/ChemWeaver"
-url: "https://github.com/Benjamin-JHou/ChemWeaver"
-license: MIT
+message: "If you use this software, please cite it as below."
+title: "ChemWeaver"
 version: 1.0.0
 date-released: 2026-02-05
-keywords:
-  - virtual-screening
-  - drug-discovery
-  - cheminformatics
-  - machine-learning
-  - uncertainty-quantification
-  - reproducibility
-  - ai-driven
-  - prospective-validation
-  - computational-biology
-  - structure-based-drug-design
-preferred-citation:
-  type: article
-  authors:
-    - family-names: "Hou"
-      given-names: "Benjamin J."
-    - name: "ChemWeaver Development Team"
-  title: "ChemWeaver: A Reproducible AI-Augmented Infrastructure for Prospective Virtual Screening"
-  year: 2024
-  journal: "Nature Methods"
-references:
-  - type: software
-    authors:
-      - name: "RDKit"
-    title: "RDKit: Open-source cheminformatics"
-    url: "https://www.rdkit.org"
-  - type: software
-    authors:
-      - name: "NumPy Developers"
-    title: "NumPy"
-    url: "https://numpy.org"
-  - type: software
-    authors:
-      - name: "scikit-learn Developers"
-    title: "scikit-learn"
-    url: "https://scikit-learn.org"
+license: MIT
+authors:
+  - family-names: Jhou
+    given-names: Benjamin
+    orcid: "https://orcid.org/0000-0001-5931-1477"
