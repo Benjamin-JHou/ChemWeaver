@@ -1,5 +1,9 @@
 # ChemWeaver
 
+<div align="center">
+  <img src="assets/chemweaver-logo.png" alt="ChemWeaver Logo" width="200" height="200">
+</div>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
