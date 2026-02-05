@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-02-06 01:05:22",
+  "chemweaver_version": "1.0.0",
+  "test_compounds": 1000,
+  "environment": {
+    "python_version": "3.13",
+    "platform": "darwin",
+    "independent_test": 1
+  },
+  "results": {
+    "runtime_total_seconds": 0.002774953842163086,
+    "runtime_per_compound_ms": 0.002774953842163086,
+    "compounds_processed": 1000,
+    "reproducibility_correlation": 0.9999999999999999,
+    "score_statistics": {
+      "mean": -6.3634167,
+      "std": 0.19047910360748233,
+      "min": -6.8612,
+      "max": -6.0808
+    },
+    "uncertainty_statistics": {
+      "mean": 0.12634167000000002,
+      "std": 0.019047910360748235,
+      "min": 0.09808000000000001,
+      "max": 0.17612
+    }
+  },
+  "validation_criteria": {
+    "reproducibility_pass": "True",
+    "runtime_reasonable": 1,
+    "uncertainty_calibrated": "True",
+    "overall_success": "True"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "reproducibility_correlation": 0.9999999999999999,
+  "runtime_per_compound": 0.002774953842163086,
+  "uncertainty_mean": 0.12634167000000002,
+  "overall_success": "True",
+  "n_compounds": 1000
+}

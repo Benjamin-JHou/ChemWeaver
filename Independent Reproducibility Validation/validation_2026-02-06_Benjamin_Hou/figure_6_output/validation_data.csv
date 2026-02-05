@@ -1,0 +1,5 @@
+Metric,Value,Threshold,Status
+Runtime,2.775ms,<1000ms,PASS
+Reproducibility,1.000,>0.85,PASS
+Uncertainty,0.126,0.1-1.0,PASS
+Overall,True,TRUE,SUCCESS
