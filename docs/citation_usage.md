@@ -19,7 +19,7 @@ When you use ChemWeaver software in your research, please cite:
   author = {Hou, Benjamin J. and {ChemWeaver Development Team}},
   year = {2024},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  version = {1.0.0},
+  version = {1.0.3},
   doi = {10.5281/zenodo.18497305}
 }
 ```
@@ -27,7 +27,7 @@ When you use ChemWeaver software in your research, please cite:
 **APA**:
 ```
 Hou, B. J., & ChemWeaver Development Team. (2024). ChemWeaver: 
-Reproducible AI-Driven Virtual Screening Infrastructure (Version 1.0.0) 
+Reproducible AI-Driven Virtual Screening Infrastructure (Version 1.0.3) 
 [Computer software]. https://github.com/Benjamin-JHou/ChemWeaver
 ```
 
@@ -91,7 +91,7 @@ If you need to cite a specific version:
   month = {2},
   day = {5},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  version = {1.0.0},
+  version = {1.0.3},
   doi = {10.5281/zenodo.18497305}
 }
 ```
@@ -112,7 +112,7 @@ If you specifically use the AI surrogate prediction:
   author = {Hou, Benjamin J.},
   year = {2024},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  note = {Part of ChemWeaver v1.0.0}
+  note = {Part of ChemWeaver v1.0.3}
 }
 ```
 
@@ -127,7 +127,7 @@ If you use ChemWeaver's uncertainty quantification methods:
   author = {Hou, Benjamin J.},
   year = {2024},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  note = {Part of ChemWeaver v1.0.0}
+  note = {Part of ChemWeaver v1.0.3}
 }
 ```
 
@@ -142,7 +142,7 @@ If you use ChemWeaver's reproducibility features:
   author = {Hou, Benjamin J.},
   year = {2024},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  note = {Part of ChemWeaver v1.0.0}
+  note = {Part of ChemWeaver v1.0.3}
 }
 ```
 
@@ -157,7 +157,7 @@ If you use ChemWeaver's reproducibility features:
 
 \subsection{Virtual Screening}
 
-Virtual screening was performed using ChemWeaver v1.0.0 
+Virtual screening was performed using ChemWeaver v1.0.3 
 \cite{chemweaver_2024}, a reproducible AI-driven screening 
 infrastructure. The screening pipeline consisted of four stages: 
 (1) compound standardization, (2) property filtering using Lipinski's 
@@ -293,7 +293,7 @@ ChemWeaver builds upon many excellent open-source projects. Please also cite:
 **A**: Cite the original software and mention your modifications in your methods section:
 ```
 Virtual screening was performed using a modified version of 
-ChemWeaver v1.0.0 (Hou et al., 2024), with custom feature 
+ChemWeaver v1.0.3 (Hou et al., 2024), with custom feature 
 extraction added to the standard pipeline.
 ```
 
@@ -309,12 +309,12 @@ structure-based validation.
 ### Q: Should I cite the software or the paper?
 
 **A**: 
-- **Now**: Cite the software (v1.0.0)
+- **Now**: Cite the software (v1.0.3)
 - **After publication**: Cite the Nature Methods paper as primary, software as secondary
 
 ### Q: How do I get the Zenodo DOI?
 
-**A**: The Zenodo DOI will be automatically generated upon first GitHub release. Check back after v1.0.0 is released, or look for the DOI badge in the README.
+**A**: The current software DOI is already assigned: `10.5281/zenodo.18497305`.
 
 ---
 
@@ -324,8 +324,8 @@ Help us track ChemWeaver's impact by letting us know about your publication:
 
 **How to report**:
 1. Open a GitHub Issue with tag "publication"
-2. Email us at: [contact email]
-3. Submit to: [publication tracking form]
+2. Include citation details in the issue body
+3. Link the publication DOI and venue
 
 **Information to include**:
 - Publication title
@@ -345,7 +345,7 @@ We track:
 - Google Scholar citations
 - Publication mentions
 
-**Current Metrics** (as of v1.0.0):
+**Current Metrics** (as of v1.0.3):
 - GitHub Stars: Track live values on the GitHub repository page
 - Zenodo Downloads: Track live values on the Zenodo record page
 - Citations: Track live values in Google Scholar
@@ -356,7 +356,7 @@ We track:
 
 | Version | Date | DOI | Changes |
 |---------|------|-----|---------|
-| 1.0.0 | 2026-02-05 | 10.5281/zenodo.18497305 | Initial release |
+| 1.0.3 | 2026-02-16 | 10.5281/zenodo.18497305 | Metadata and reproducibility updates |
 
 ---
 
@@ -380,6 +380,6 @@ Your citations help us:
 
 ---
 
-**Last Updated**: 2026-02-05  
-**Citation Version**: 1.0.0  
+**Last Updated**: 2026-02-16  
+**Citation Version**: 1.0.3  
 **Valid Until**: Next major release

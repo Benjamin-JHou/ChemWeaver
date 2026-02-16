@@ -1,0 +1,49 @@
+name: ci
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  quality-and-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install lightweight test tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install numpy
+
+      - name: Lint
+        run: |
+          python -m compileall -q src tests
+
+      - name: Unit tests
+        run: |
+          PYTHONPATH=src python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Smoke run
+        run: |
+          PYTHONPATH=src python -m chemweaver.workflow_runner \
+            --input data/example_compounds.smi \
+            --output /tmp/chemweaver_ci_smoke_results.json \
+            --confidence 0.0 \
+            --uncertainty 1.0 \
+            --top-n 3
+          python - <<'PY'
+          import json
+          with open("/tmp/chemweaver_ci_smoke_results.json", "r", encoding="utf-8") as fh:
+              payload = json.load(fh)
+          assert payload["total_compounds"] > 0
+          assert len(payload["results"]) == payload["total_compounds"]
+          print("Smoke output validated.")
+          PY

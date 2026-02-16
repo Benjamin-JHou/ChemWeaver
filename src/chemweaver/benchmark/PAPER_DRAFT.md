@@ -349,6 +349,18 @@ All datasets, evaluation code, and baseline implementations are available at:
 
 Datasets are released under CC-BY-4.0 license. Code is released under MIT license.
 
+## Claim-to-Evidence Mapping
+
+To support reviewer verification, each manuscript claim category is mapped to downloadable artifacts:
+
+- **Performance**: `Independent Reproducibility Validation/validation_2026-02-06_Benjamin_Hou/independent_validation_results/validation_report.json`
+- **Uncertainty**: `Independent Reproducibility Validation/validation_2026-02-06_Benjamin_Hou/figure_6_output/figure_6_supplementary.json`
+- **Reproducibility**: `Independent Reproducibility Validation/INDEPENDENT_REPRODUCIBILITY_REPORT.md`
+- **Reproduction entrypoint**: `scripts/reproduce_figure6.sh`
+
+Full mapping table and raw download URLs are documented in:
+`docs/manuscript_evidence_mapping.md`
+
 ## Code Availability
 
 Complete implementation including:

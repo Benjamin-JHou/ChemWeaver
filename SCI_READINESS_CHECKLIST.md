@@ -65,13 +65,13 @@ PYTHONPATH=src python3 -m chemweaver.workflow_runner \
 
 ## 6. Remote Upload Status
 
-- [x] Remote `main` commit detected: `ec3105dfe5cdb3b56379bdc2c34b36c37787882c`
-- [x] Local pre-change baseline commit: `0fbcbdb83ff9efc9327ae127f8807620cd968c58`
-- [ ] Local branch is not yet synchronized to remote (pending commit + push)
+- [x] Remote `main` was synchronized to `ce522ffc9d979188d54b5da92d95050df59b964b`
+- [x] Cleanup/test update commits were successfully pushed
+- [x] Repository sync status verified via `git ls-remote`
 
 ---
 
 ## Final Gate
 
-Current status: **Ready to finalize by committing and pushing this cleanup set.**  
-Blocking item: **Remote sync pending** (commit/push not executed yet).
+Current status: **Baseline cleanup set is synced to GitHub main.**  
+Note: Subsequent updates should be re-verified and pushed after local checks pass.

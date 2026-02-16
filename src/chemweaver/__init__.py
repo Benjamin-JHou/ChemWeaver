@@ -17,11 +17,11 @@ Features:
 - Pre-registered prospective validation
 
 Author: ChemWeaver Development Team
-Version: 1.0.0
+Version: 1.0.3
 License: MIT
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.3"
 __author__ = "ChemWeaver Development Team"
 
 # Core imports

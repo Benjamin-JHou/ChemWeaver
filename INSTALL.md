@@ -56,7 +56,6 @@ chemweaver -i your_compounds.smi -o results.json
 ## Using as Python library
 ```python
 from chemweaver import Compound, MinimalScreeningPipeline
-from chemweaver.core.inference import MinimalSurrogateModel
 
 # Create compound from SMILES
 compound = Compound.from_smiles("CCO", "compound_1")
@@ -65,7 +64,7 @@ compound = Compound.from_smiles("CCO", "compound_1")
 pipeline = MinimalScreeningPipeline()
 
 # Run screening
-results = pipeline.run_screening([compound])
+results = pipeline.screen([compound])
 ```
 
 # Requirements

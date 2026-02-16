@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chemweaver"
-version = "1.0.0"
+version = "1.0.3"
 description = "Reproducible, uncertainty-aware virtual screening infrastructure for prospective drug discovery"
 readme = "README.md"
 license = {text = "MIT"}

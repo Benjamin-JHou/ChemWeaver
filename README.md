@@ -64,11 +64,11 @@ ChemWeaver is built on the principle that **computational drug discovery must be
 
 **4. Verification Tools**
 ```python
-from chemweaver.utils import compute_reproducibility_hash
+from chemweaver.utils.helpers import compute_reproducibility_hash
 
 # Generate cryptographic hash for verification
 hash_value = compute_reproducibility_hash(
-    input_file="compounds.smi",
+    input_file="data/example_compounds.smi",
     parameters={"confidence": 0.7, "uncertainty": 0.5},
     timestamp="2026-02-05T10:30:00Z"
 )
@@ -126,21 +126,19 @@ ChemWeaver includes complete protocols for experimental validation:
 - Z' factor requirements (>0.6)
 - Statistical power calculations
 
-### Pre-Registration Support
+### Reproducibility Record Support
 
-For rigorous prospective studies:
+For reproducible prospective studies:
 ```python
-from chemweaver.validation import PreRegisteredStudy
+from datetime import datetime, UTC
+from chemweaver.utils.helpers import compute_reproducibility_hash
 
-# Lock study protocol before screening
-study = PreRegisteredStudy(
-    name="Novel_Kinase_Screen",
-    hypothesis="Identify inhibitors with >1% hit rate"
+run_hash = compute_reproducibility_hash(
+    input_file="data/example_compounds.smi",
+    parameters={"confidence": 0.7, "uncertainty": 0.5, "top_n": 50},
+    timestamp=datetime.now(UTC).isoformat(),
 )
-
-# Cryptographic integrity verification
-protocol = study.lock_protocol()
-print(f"Protocol Hash: {protocol.hash}")  # Immutable
+print(f"Run Hash: {run_hash}")
 ```
 
 ---
@@ -164,7 +162,7 @@ pip install -e .
 ### Basic Usage
 
 ```python
-from chemweaver import Compound, ScreeningPipeline
+from chemweaver import Compound, MinimalScreeningPipeline
 
 # Create compounds from SMILES
 compound = Compound.from_smiles(
@@ -173,7 +171,7 @@ compound = Compound.from_smiles(
 )
 
 # Configure screening pipeline
-pipeline = ScreeningPipeline(
+pipeline = MinimalScreeningPipeline(
     confidence_threshold=0.7,
     max_uncertainty=0.5,
     top_n=50
@@ -249,19 +247,28 @@ ChemWeaver implements a scientifically rigorous 3-stage workflow:
 Unlike traditional VS tools, ChemWeaver quantifies prediction reliability:
 
 ```python
-from chemweaver.inference import UncertaintyCalibratedDecisionLayer
+from uuid import uuid4
+from chemweaver.ai.inference.decision_layer import UncertaintyCalibratedDecisionLayer
+from chemweaver.core.inference import MinimalSurrogateModel
 
 decision_layer = UncertaintyCalibratedDecisionLayer(
-    confidence_threshold=0.7,
-    uncertainty_threshold=0.5
+    base_threshold=0.7,
+    target_difficulty="moderate",
 )
 
-# Get prediction with uncertainty
-prediction = model.predict_with_uncertainty(smiles)
+# Get prediction with uncertainty from the surrogate model
+model = MinimalSurrogateModel()
+prediction = model.predict_with_uncertainty("CCO", compound_id="cmpd_001")
 
 # Make risk-aware decision
-decision = decision_layer.evaluate(prediction)
-# Returns: PASS (high confidence), REVIEW (medium), FAIL (low)
+decision = decision_layer.make_decision(
+    compound_id=uuid4(),
+    docking_prediction=prediction.predicted_score,
+    uncertainty=prediction.uncertainty,
+    in_domain=True,
+    domain_reliability=prediction.confidence,
+)
+print(decision.decision.value, decision.decision_confidence)
 ```
 
 ### 3. Performance Metrics
@@ -318,6 +325,7 @@ Output Layer
 - **Reproducibility**: [docs/reproducibility.md](docs/reproducibility.md)
 - **Benchmarking**: [docs/benchmark_philosophy.md](docs/benchmark_philosophy.md)
 - **Citation Guide**: [docs/citation_usage.md](docs/citation_usage.md)
+- **Manuscript Evidence Map**: [docs/manuscript_evidence_mapping.md](docs/manuscript_evidence_mapping.md)
 - **API Reference**: See docstrings in source code
 
 ---
@@ -328,6 +336,21 @@ The repository includes a minimal example dataset (`data/example_compounds.smi`)
 
 **Runtime**: ~5 seconds on standard laptop  
 **Output**: 6-8 hits selected with uncertainty estimates
+
+---
+
+## 🔁 One-Command Reproduction
+
+Reproduce the independent validation outputs (including Figure 6 files):
+
+```bash
+bash scripts/reproduce_figure6.sh
+```
+
+Generated artifacts:
+- `Independent Reproducibility Validation/validation_2026-02-06_Benjamin_Hou/figure_6_output/figure_6.png`
+- `Independent Reproducibility Validation/validation_2026-02-06_Benjamin_Hou/figure_6_output/figure_6.pdf`
+- `Independent Reproducibility Validation/validation_2026-02-06_Benjamin_Hou/independent_validation_results/validation_report.json`
 
 ---
 
@@ -343,7 +366,7 @@ If you use ChemWeaver in your research, please cite:
   author = {Hou, Benjamin J. and {ChemWeaver Development Team}},
   year = {2024},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
-  version = {1.0.0},
+  version = {1.0.3},
   doi = {10.5281/zenodo.18497305}
 }
 ```
