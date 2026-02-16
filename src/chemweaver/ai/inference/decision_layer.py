@@ -13,6 +13,7 @@ Version: 1.0.0
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Any, Dict, List, Optional, Tuple
 from uuid import UUID, uuid4
@@ -70,7 +71,7 @@ class ScreeningRecommendation:
     
     # Screening metadata
     stage_id: Optional[UUID] = None
-    timestamp: str = field(default_factory=lambda: str(__import__('datetime').datetime.utcnow()))
+    timestamp: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
     
     # Alternative scenarios
     alternative_decisions: List[Dict[str, Any]] = field(default_factory=list)

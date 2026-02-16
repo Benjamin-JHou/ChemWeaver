@@ -1,10 +1,11 @@
 import unittest
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 import sys
 from uuid import uuid4
 
-SRC_PATH = Path(__file__).resolve().parents[1] / "src"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SRC_PATH = REPO_ROOT / "src"
 if str(SRC_PATH) not in sys.path:
     sys.path.insert(0, str(SRC_PATH))
 
@@ -46,12 +47,12 @@ class TestDocumentationSnippets(unittest.TestCase):
         self.assertGreaterEqual(decision.decision_confidence, 0.0)
 
     def test_readme_reproducibility_hash_snippet_runs(self):
-        input_file = Path("data/example_compounds.smi")
+        input_file = REPO_ROOT / "data/example_compounds.smi"
         self.assertTrue(input_file.exists())
         run_hash = compute_reproducibility_hash(
             input_file=str(input_file),
             parameters={"confidence": 0.7, "uncertainty": 0.5, "top_n": 50},
-            timestamp=datetime.now(UTC).isoformat(),
+            timestamp=datetime.now(timezone.utc).isoformat(),
         )
         self.assertEqual(len(run_hash), 32)
 

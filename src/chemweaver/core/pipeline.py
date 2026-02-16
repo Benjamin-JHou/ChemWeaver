@@ -22,7 +22,7 @@ from __future__ import annotations
 import json
 import hashlib
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from uuid import UUID, uuid4
@@ -135,7 +135,7 @@ class MinimalScreeningPipeline:
         self.max_uncertainty = max_uncertainty
         self.top_n = top_n
         self.pipeline_id = str(uuid4())
-        self.execution_timestamp = datetime.utcnow().isoformat()
+        self.execution_timestamp = datetime.now(timezone.utc).isoformat()
         
     def standardize(self, compounds: List[Compound]) -> List[Compound]:
         """

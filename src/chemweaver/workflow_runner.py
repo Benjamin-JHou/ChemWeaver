@@ -25,7 +25,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -67,7 +67,7 @@ class WorkflowRunner:
             message: Log message
             level: Log level (INFO, WARNING, ERROR)
         """
-        timestamp = datetime.utcnow().isoformat()
+        timestamp = datetime.now(timezone.utc).isoformat()
         log_entry = {
             'timestamp': timestamp,
             'level': level,
@@ -172,7 +172,7 @@ class WorkflowRunner:
         Returns:
             Execution summary dictionary
         """
-        self.start_time = datetime.utcnow()
+        self.start_time = datetime.now(timezone.utc)
         self.log("Starting VSSS Screening Workflow")
         self.log(f"Configuration: confidence={confidence_threshold}, "
                 f"uncertainty={max_uncertainty}, top_n={top_n}")
@@ -199,7 +199,7 @@ class WorkflowRunner:
             pipeline.save_results(results, output_path)
             
             # Generate summary
-            self.end_time = datetime.utcnow()
+            self.end_time = datetime.now(timezone.utc)
             duration = (self.end_time - self.start_time).total_seconds()
             
             summary = {
@@ -220,7 +220,7 @@ class WorkflowRunner:
             return summary
             
         except Exception as e:
-            self.end_time = datetime.utcnow()
+            self.end_time = datetime.now(timezone.utc)
             self.log(f"Workflow failed: {str(e)}", level="ERROR")
             
             return {
