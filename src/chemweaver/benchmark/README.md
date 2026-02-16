@@ -184,7 +184,7 @@ Known Biases:
   - Activity cliff imbalance
 
 License: CC-BY-4.0
-DOI: 10.5281/zenodo.xxxxx
+DOI: Pending Zenodo assignment
 ```
 
 ## Evaluation Metrics
@@ -413,8 +413,7 @@ If you use VS-Bench in your research, please cite:
   title={VS-Bench: A Comprehensive Benchmark for AI-Assisted Virtual Screening},
   author={[Authors]},
   journal={Nature Methods},
-  year={2024},
-  doi={10.xxxx/zenodo.vs-bench}
+  year={2024}
 }
 ```
 

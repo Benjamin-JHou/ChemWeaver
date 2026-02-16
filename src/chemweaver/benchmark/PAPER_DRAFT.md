@@ -343,7 +343,7 @@ We anticipate VS-Bench will:
 
 All datasets, evaluation code, and baseline implementations are available at:
 - **Repository**: https://github.com/vs-bench/vs-bench
-- **Datasets**: https://zenodo.org/record/vs-bench (DOI: 10.5281/zenodo.xxxxx)
+- **Datasets**: https://zenodo.org/record/vs-bench (DOI pending assignment)
 - **Leaderboard**: https://vs-bench.org/leaderboard
 - **Documentation**: https://vs-bench.readthedocs.io
 

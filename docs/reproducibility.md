@@ -431,7 +431,7 @@ docker images --digests | grep chemweaver
 
 For reproducibility questions or issues:
 - GitHub Issues: [ChemWeaver Issues](https://github.com/Benjamin-JHou/ChemWeaver/issues)
-- Email: [To be added]
+- Repository: https://github.com/Benjamin-JHou/ChemWeaver
 
 ---
 

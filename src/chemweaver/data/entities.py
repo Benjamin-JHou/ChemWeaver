@@ -185,7 +185,7 @@ class SyntheticAccessibility:
 
 @dataclass
 class ADMETPredictions:
-    """ADMET prediction placeholder structure."""
+    """ADMET prediction schema for optional model outputs."""
     caco2_permeability: Optional[float] = None
     p_glycoprotein_substrate: Optional[float] = None
     herg_inhibition: Optional[float] = None

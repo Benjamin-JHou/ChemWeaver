@@ -54,7 +54,7 @@ class Compound:
                             'S': 32.06, 'P': 30.97, 'F': 19.0, 'Cl': 35.45}
             mw += atomic_weights.get(atom, 12.0) * count
         
-        # Generate InChIKey placeholder
+        # Generate a deterministic hash-based InChIKey proxy.
         inchikey = hashlib.sha256(smiles.encode()).hexdigest()[:27]
         
         return cls(

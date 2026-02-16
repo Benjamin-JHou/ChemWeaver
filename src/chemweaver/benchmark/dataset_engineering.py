@@ -528,7 +528,7 @@ class DatasetBuilder:
         standard_type: str = "IC50",
         min_confidence: int = 8
     ) -> DatasetBuilder:
-        """Add data from ChEMBL (placeholder for actual implementation)."""
+        """Register ChEMBL as a data source for dataset assembly."""
         self.data_sources.append(DataSource.CHEMBL)
         # Actual implementation would query ChEMBL API
         return self

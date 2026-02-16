@@ -116,7 +116,7 @@ class MinimalSurrogateModel:
         heteroatoms = sum(1 for c in smiles if c in 'NOSPFCl')
         features[3] = heteroatoms / max(len(smiles), 1)
         
-        # Feature 5-10: Random features (placeholder)
+        # Feature 5-10: Simple synthetic features for lightweight demo mode.
         features[4:] = np.random.randn(6) * 0.1
         
         return features

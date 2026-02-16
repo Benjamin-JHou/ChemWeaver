@@ -337,7 +337,7 @@ Inference Time: 0.05s/compound
   "rank": 1,
   "method": "ChemWeaver-Ensemble",
   "authors": "Hou et al.",
-  "institution": "[Institution]",
+  "institution": "Independent Submission",
   "metrics": {
     "docking_spearman": 0.89,
     "activity_auc": 0.87,
@@ -347,7 +347,7 @@ Inference Time: 0.05s/compound
   "global_score": 0.89,
   "submission_date": "2024-02-01",
   "code_available": true,
-  "preprint": "arxiv:2401.xxxxx"
+  "preprint": "pending"
 }
 ```
 
@@ -492,7 +492,7 @@ Inference Time: 0.05s/compound
 
 For benchmark questions or contributions:
 - GitHub Issues: [ChemWeaver Issues](https://github.com/Benjamin-JHou/ChemWeaver/issues)
-- Email: [To be added]
+- Repository: https://github.com/Benjamin-JHou/ChemWeaver
 
 ---
 

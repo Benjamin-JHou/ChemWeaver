@@ -20,7 +20,7 @@ When you use ChemWeaver software in your research, please cite:
   year = {2024},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
   version = {1.0.0},
-  doi = {10.5281/zenodo.xxxxx}
+  doi = {10.5281/zenodo.18497305}
 }
 ```
 
@@ -53,7 +53,6 @@ If you want to cite the scientific methodology paper:
   volume={XX},
   issue={XX},
   pages={XXX--XXX},
-  doi={10.xxxx/nature.xxxxx},
   publisher={Nature Publishing Group}
 }
 ```
@@ -93,11 +92,11 @@ If you need to cite a specific version:
   day = {5},
   url = {https://github.com/Benjamin-JHou/ChemWeaver},
   version = {1.0.0},
-  doi = {10.5281/zenodo.xxxxx}
+  doi = {10.5281/zenodo.18497305}
 }
 ```
 
-**Note**: Zenodo DOI will be assigned upon first release.
+**Note**: This DOI corresponds to the current software release.
 
 ---
 
@@ -347,9 +346,9 @@ We track:
 - Publication mentions
 
 **Current Metrics** (as of v1.0.0):
-- GitHub Stars: [TBD]
-- Zenodo Downloads: [TBD]
-- Citations: [TBD]
+- GitHub Stars: Track live values on the GitHub repository page
+- Zenodo Downloads: Track live values on the Zenodo record page
+- Citations: Track live values in Google Scholar
 
 ---
 
@@ -357,7 +356,7 @@ We track:
 
 | Version | Date | DOI | Changes |
 |---------|------|-----|---------|
-| 1.0.0 | 2026-02-05 | 10.5281/zenodo.xxxxx | Initial release |
+| 1.0.0 | 2026-02-05 | 10.5281/zenodo.18497305 | Initial release |
 
 ---
 
@@ -366,8 +365,8 @@ We track:
 For citation questions or to report your publication:
 
 - **GitHub**: [Open an issue](https://github.com/Benjamin-JHou/ChemWeaver/issues)
-- **Email**: [To be added]
-- **Website**: [To be added]
+- **Repository**: https://github.com/Benjamin-JHou/ChemWeaver
+- **Zenodo**: https://doi.org/10.5281/zenodo.18497305
 
 ---
 
